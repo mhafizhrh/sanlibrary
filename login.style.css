@@ -1,0 +1,131 @@
+html, body {
+
+	font-family: sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+a {
+
+	text-decoration-line: none;
+	color: #1CA7EC;
+}
+
+label {
+
+	font-weight: bold;
+}
+
+.left-image {
+
+	background-image: url(images/lib1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.form {
+
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin: 0;
+}
+
+.form-title {
+
+	float: left;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	margin: 0 0 40px 0;
+	background-image: linear-gradient(to right, #36D1DC, #5B86E5);
+	text-align: center;
+	color: white;
+}
+
+.form-content {
+
+	padding: 0 20px 20px 20px;
+	background-color: white;
+}
+
+.form-group {
+
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.input-signup4 {
+
+	border: none;
+	border-bottom: 2px solid #cccccc;
+	width: 100%;
+	padding: 16px 0px;
+	margin-bottom: 4px;
+	font-family: calibri;
+	font-size: 16px;
+	outline: none;
+	transition: border-bottom 0.5s;
+}
+
+.input-signup4:focus {
+
+	border-bottom: 2px solid #000000;
+}
+
+.input-signup4::placeholder {
+
+	color: #cccccc;
+}
+
+.btn-signup4 {
+
+	border: none;
+	border-bottom: 2px solid #f1f1f1;
+	border-radius: 26px;
+	background-image: linear-gradient(to right bottom, #43C6AC, #191654);
+	color: white;
+	width: 100%;
+	padding: 16px;
+	outline: none;
+}
+
+.btn-signup4:hover {
+
+	cursor: pointer;
+	background-image: linear-gradient(to left top, #43C6AC, #191654);
+}
+
+.link-signup4 {
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.text-center {
+
+	text-align: center;
+}
+
+.has-error {
+
+	color: red;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.left-image {
+
+		display: none;
+
+	}
+
+	.form {
+
+		width: 100%;
+	}
+}
